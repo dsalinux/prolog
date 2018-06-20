@@ -1,8 +1,9 @@
-# prolog
+# Prolog
 Estudos de lógica com prolog
 
 Testes realizados no https://swish.swi-prolog.org/
 
+# Árvore genealógica da Família Imperial Brasileira
 Alguns testes:
 
 descendente(X, d_luis)<br>
