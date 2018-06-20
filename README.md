@@ -10,4 +10,7 @@ descendente(X, d_luis)<br>
 descendente(d_carlota_joaquina, X)<br>
 bisneto(X, d_carlota_joaquina)<br>
 bisneto(X, d_carlota_joaquina)<br>
-filho(d_pedro_i, d_carlota_joaquina)
+filho(d_pedro_i, d_carlota_joaquina)<br>
+<center>
+<img src="https://github.com/dsalinux/prolog/blob/master/arvore_familia_imperial.jpg" width="400px"></img>
+</center>
