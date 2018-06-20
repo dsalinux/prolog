@@ -6,7 +6,7 @@ Testes realizados no https://swish.swi-prolog.org/
 # Árvore genealógica da Família Imperial Brasileira
 Alguns testes:
 
-descendente(X, d_luis)<br>
+ancestral(d_luis, X)<br>
 descendente(d_carlota_joaquina, X)<br>
 bisneto(X, d_carlota_joaquina)<br>
 bisneto(X, d_carlota_joaquina)<br>
