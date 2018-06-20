@@ -113,3 +113,8 @@ descendente(X,Y) :- mae(X,Y).
 descendente(X,Y) :- pai(X,Y).
 descendente(X,Y) :- mae(X,Z), descendente(Z,Y).
 descendente(X,Y) :- pai(X,Z), descendente(Z,Y).
+
+ancestral(X,Y) :- mae(Y,X).
+ancestral(X,Y) :- pai(Y,X).
+ancestral(X,Y) :- mae(Z,X), ancestral(Z,Y).
+ancestral(X,Y) :- pai(Z,X), ancestral(Z,Y).
